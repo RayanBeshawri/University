@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MainAndController.Frame1Controller">
+   <children>
+      <ImageView fitHeight="439.0" fitWidth="608.0" opacity="0.3" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@WhatsApp%20Image%202022-10-25%20at%2017.27.15.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="bt" layoutX="255.0" layoutY="333.0" mnemonicParsing="false" onAction="#signup" text="Go To Menu">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font></Button>
+      <Label fx:id="l1" layoutX="60.0" layoutY="115.0" text="Enter Your Name: ">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font></Label>
+      <Label fx:id="l2" layoutX="60.0" layoutY="236.0" text="Enter Your Tabel Number:">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font></Label>
+      <Label fx:id="l4" alignment="CENTER" layoutX="4.0" layoutY="268.0" prefHeight="60.0" prefWidth="594.0" textAlignment="CENTER" textFill="#ee0a0a" textOverrun="LEADING_WORD_ELLIPSIS">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font></Label>
+      <TextField fx:id="t1" layoutX="343.0" layoutY="110.0" />
+      <TextField fx:id="t2" layoutX="343.0" layoutY="231.0" />
+      <Label layoutX="206.0" layoutY="25.0" text="Welcome " textAlignment="CENTER">
+         <font>
+            <Font name="Comic Sans MS Bold" size="49.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

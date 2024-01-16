@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.media.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="921.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MainAndController.Frame2Controller">
+   <children>
+      <ImageView fitHeight="617.0" fitWidth="963.0" layoutY="-2.0" opacity="0.3" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@WhatsApp%20Image%202022-10-25%20at%2017.10.42.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="323.0" layoutY="22.0" text="Menu">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="123.0" layoutY="94.0" text="Burgers">
+         <font>
+            <Font name="System Bold" size="21.0" />
+         </font>
+      </Label>
+      <Label layoutX="72.0" layoutY="149.0" text="Cheese Burger">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font></Label>
+      <Label layoutX="242.0" layoutY="194.0" text="12$" />
+      <Label layoutX="72.0" layoutY="194.0" text="Double Cheese Burger">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font></Label>
+      <Label layoutX="242.0" layoutY="149.0" text="10$" />
+      <Label layoutX="72.0" layoutY="232.0" text="Chicken Burger">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font></Label>
+      <Label layoutX="246.0" layoutY="232.0" text="9$" />
+      <Label layoutX="72.0" layoutY="277.0" text="Vegetarian Burger">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font></Label>
+      <Label layoutX="246.0" layoutY="277.0" text="6$" />
+      <Label layoutX="476.0" layoutY="94.0" text="Drinks">
+         <font>
+            <Font name="System Bold" size="21.0" />
+         </font>
+      </Label>
+      <Label layoutX="75.0" layoutY="325.0" text="Crispy ChickenBurger">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font></Label>
+      <Label layoutX="242.0" layoutY="325.0" text="10$" />
+      <Button fx:id="ConfB" layoutX="459.0" layoutY="422.0" mnemonicParsing="false" onAction="#Frame3open" text="Confirm Order">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+      <Label fx:id="errorLabel" layoutX="320.0" layoutY="362.0" prefHeight="21.0" prefWidth="289.0" textAlignment="CENTER" textFill="RED">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="result" layoutX="32.0" layoutY="335.0" prefHeight="21.0" prefWidth="64.0" />
+      <Label layoutX="524.0" layoutY="149.0" text="2$" />
+      <Label layoutX="524.0" layoutY="243.0" text="3$" />
+      <Label layoutX="524.0" layoutY="194.0" text="3$" />
+      <Label layoutX="524.0" layoutY="298.0" text="1$" />
+      <Label layoutX="435.0" layoutY="149.0" text="Soft Drinks">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="438.0" layoutY="194.0" text="Juices">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="434.0" layoutY="240.0" text="Ice Tea">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="438.0" layoutY="293.0" text="Watter">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="bb" layoutX="202.0" layoutY="298.0" />
+      <TextField fx:id="text" layoutX="289.0" layoutY="144.0" prefHeight="31.0" prefWidth="42.0" />
+      <TextField fx:id="text1" layoutX="289.0" layoutY="189.0" prefHeight="31.0" prefWidth="42.0" />
+      <TextField fx:id="text2" layoutX="289.0" layoutY="228.0" prefHeight="31.0" prefWidth="42.0" />
+      <TextField fx:id="text3" layoutX="289.0" layoutY="272.0" prefHeight="31.0" prefWidth="42.0" />
+      <TextField fx:id="text4" layoutX="289.0" layoutY="320.0" prefHeight="31.0" prefWidth="42.0" />
+      <TextField fx:id="text5" layoutX="566.0" layoutY="144.0" prefHeight="31.0" prefWidth="42.0" />
+      <TextField fx:id="text6" layoutX="566.0" layoutY="189.0" prefHeight="31.0" prefWidth="42.0" />
+      <TextField fx:id="text7" layoutX="566.0" layoutY="246.0" prefHeight="31.0" prefWidth="42.0" />
+      <TextField fx:id="text8" layoutX="566.0" layoutY="293.0" prefHeight="31.0" prefWidth="42.0" />
+      <Button fx:id="AddB" layoutX="347.0" layoutY="144.0" mnemonicParsing="false" onAction="#AddB" prefHeight="31.0" prefWidth="49.0" text="Add" />
+      <Button fx:id="AddB1" layoutX="347.0" layoutY="189.0" mnemonicParsing="false" onAction="#AddB1" prefHeight="31.0" prefWidth="49.0" text="Add" />
+      <Button fx:id="AddB2" layoutX="347.0" layoutY="228.0" mnemonicParsing="false" onAction="#AddB2" prefHeight="31.0" prefWidth="49.0" text="Add" />
+      <Button fx:id="AddB3" layoutX="347.0" layoutY="272.0" mnemonicParsing="false" onAction="#AddB3" prefHeight="31.0" prefWidth="49.0" text="Add" />
+      <Button fx:id="AddB4" layoutX="347.0" layoutY="320.0" mnemonicParsing="false" onAction="#AddB4" prefHeight="31.0" prefWidth="49.0" text="Add" />
+      <Button fx:id="AddB5" layoutX="626.0" layoutY="144.0" mnemonicParsing="false" onAction="#AddB5" prefHeight="31.0" prefWidth="49.0" text="Add" />
+      <Button fx:id="AddB6" layoutX="626.0" layoutY="189.0" mnemonicParsing="false" onAction="#AddB6" prefHeight="31.0" prefWidth="49.0" text="Add" />
+      <Button fx:id="AddB7" layoutX="626.0" layoutY="244.0" mnemonicParsing="false" onAction="#AddB7" prefHeight="31.0" prefWidth="49.0" text="Add" />
+      <Button fx:id="AddB8" layoutX="626.0" layoutY="299.0" mnemonicParsing="false" onAction="#AddB8" prefHeight="31.0" prefWidth="49.0" text="Add" />
+      <Button fx:id="ClearB" layoutX="372.0" layoutY="422.0" mnemonicParsing="false" onAction="#clear" text="Clear">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+      <Accordion layoutY="7.0" />
+      <Label fx:id="Labelwindow" alignment="TOP_CENTER" layoutX="683.0" layoutY="221.0" prefHeight="50.0" prefWidth="239.0" textAlignment="JUSTIFY" textFill="RED" textOverrun="LEADING_ELLIPSIS" wrapText="true">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="Labelwindow2" alignment="TOP_CENTER" contentDisplay="TOP" layoutX="697.0" layoutY="322.0" prefHeight="58.0" prefWidth="209.0" textAlignment="JUSTIFY" textFill="RED" textOverrun="LEADING_ELLIPSIS" wrapText="true">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="777.0" layoutY="285.0" prefHeight="21.0" prefWidth="50.0" text="Total">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="732.0" layoutY="183.0" prefHeight="27.0" prefWidth="140.0" text="Current Choose">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Accordion layoutX="11.0" layoutY="9.0" />
+    <TitledPane cacheHint="SCALE" depthTest="ENABLE" expanded="false" layoutY="1.0" prefHeight="169.0" prefWidth="169.0" text="Profile" textOverrun="CENTER_WORD_ELLIPSIS" wrapText="true">
+         <content>
+            <AnchorPane prefHeight="123.0" prefWidth="167.0">
+               <children>
+                  <Button fx:id="BackB" layoutX="59.0" layoutY="71.0" mnemonicParsing="false" onAction="#back" prefHeight="39.0" prefWidth="50.0" text="Back">
+                     <font>
+                        <Font name="System Bold" size="13.0" />
+                     </font>
+                  </Button>
+                  <Label fx:id="NameL" alignment="CENTER" layoutX="12.0" layoutY="15.0" prefHeight="39.0" prefWidth="129.0" textAlignment="CENTER" textOverrun="LEADING_ELLIPSIS">
+                     <font>
+                        <Font name="System Bold" size="16.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+         </content>
+      </TitledPane>
+   </children>
+</AnchorPane>
